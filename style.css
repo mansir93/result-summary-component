@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('ttf');
+}
+*{
+  font-family: 'mywebFont',sans-serif;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent-container{
+  display: flex;
+  width: 500px;
+}
+.result{
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+}
+h3,
+.muted{
+  display: block;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.rounded{
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.rounded p{
+  padding: 10px;
+}
+.score{
+  font-size: 60px;
+  color: white;
+}
+.message{
+  padding: 10px 30px 20px 30px;
+  margin: 0px;
+}
+.message p{
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.great{
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.summary{
+  width: 50%;
+  border-radius: 0 20px 20px 0;
+  background-color: rgba(255, 255, 255, 0.568);
+}
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
