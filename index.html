@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-    <!-- ****** bootstrap  ******* -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Results summary component</title>
-  </head>
-  <body>
-    <div class="container">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <!-- ****** bootstrap  ******* -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- ******** Fonts Awesome ********* -->
+  <script src="https://kit.fontawesome.com/ab44ee12ed.js" crossorigin="anonymous"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css" />
 
-      <div class="card">
-        <div class="row">
-          <div class="col">
-            <h6 class="text-center text-muted">Your Result</h6>
-            <div class="rounded-circle">
-              <p><span class="score">76</span><br><span class="text-muted">out of 100</span></p>
-            </div>
-              <p class="text-center">Great</p>
-              <p class="text-center text-muted">You scored higher than 65% of the people who have taken these tests.
-            </p>
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="card">
+      <div class="row">
+        <div class="col">
+          <h6 class="text-center text-muted">Your Result</h6>
+          <div class="rounded-circle">
+            <p><span class="score">76</span><br><span class="text-muted">out of 100</span></p>
           </div>
+          <p class="text-center">Great</p>
+          <p class="text-center text-muted">You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
 
-          <div class="col">
-              <h4 class="summary">Summary</h4>
-              <div class="rounded-3 box1">Reaction 80 / 100</div>
-              <div class="rounded-3 box2">Memory 92 / 100</div>
-              <div class="rounded-3 box3">Verbal 61 / 100</div>
-              <div class="rounded-3 box4">Visual 72 /100</div>
-              <button class="btn">Continue</button>
-            </div>
-          </div>
+        <div class="col">
+          <h4 class="summary">Summary</h4>
+          <div class="rounded-3 box1">Reaction <span class="scorevalue">80 <span class="text-muted-2">/ 100</span></span></div>
+          <div class="rounded-3 box2">Memory <span class="scorevalue">92 <span class="text-muted-2">/ 100</span></span></div>
+          <div class="rounded-3 box3">Verbal <span class="scorevalue">61 <span class="text-muted-2">/ 100</span></span></div>
+          <div class="rounded-3 box4">Visual <span class="scorevalue">72 <span class="text-muted-2">/ 100</span></span></div>
+          <button class="rounded-5 btn">Continue</button>
         </div>
       </div>
+    </div>
+  </div>
 
-    </div>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://web.facebook.com/profile.php?id=100089638685660">Mansir Abdul Aziz</a>.
-    </div>
-  </body>
+  </div>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+      href="https://web.facebook.com/profile.php?id=100089638685660">Mansir Abdul Aziz</a>.
+  </div>
+</body>
+
 </html>
